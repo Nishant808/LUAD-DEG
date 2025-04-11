@@ -54,16 +54,18 @@ This project explores the gene expression landscape of Lung Adenocarcinoma (LUAD
   - Lipid metabolism (e.g., cholesterol biosynthesis, PPAR signaling)  
   - Immune pathways (e.g., Phagosome, Hematopoietic cell lineage)  
   - AMPK signaling and insulin resistance
+![Tumor_GO](https://github.com/Nishant808/LUAD-DEG/blob/main/GO_BP_Tumor_BARPLOT.png)
 
 - **Top Biomarkers:**  
   - Identified via SHAP value rankings  
   - Categorized into tumor and normal-specific sets  
   - Saved in `ML_BIOMARKERS_RES.xlsx`
+![SHAP_Tumor](https://github.com/Nishant808/LUAD-DEG/blob/main/TUMOR_FEATURE_IMP_NN_SELECTED.png)
 
 - **Statistical Significance:**  
   - High fold enrichment (up to 400×) in lipid pathways  
   - FDR-adjusted p-values confirming pathway relevance
-
+![FDR_DOTPLOT](https://github.com/Nishant808/LUAD-DEG/blob/main/Tumor_KEGG_DOTPLOT.png)
 ---
 
 ## 🧰 Tools & Technologies

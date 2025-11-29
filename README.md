@@ -1,7 +1,6 @@
 # Gene Expression Profiling and Pathway Enrichment Analysis in Lung Adenocarcinoma  
 *A Machine Learning Approach*  
-**Author:** Nishant Thalwal  
-**Email:** nishantthalwal@gmail.com  
+ 
 
 ---
 

@@ -1,0 +1,4 @@
+Keras Neural Network test-set performance
+==========================================
+Test loss: 0.095672
+Test accuracy: 0.975000

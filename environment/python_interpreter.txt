@@ -1,0 +1,7 @@
+Venv interpreter (BIOENV):
+Python 3.10.15
+Created from: /Users/nishantthalwal/miniconda3/envs/ml_01/bin/python3.10 (python3 -m venv)
+Architecture: arm64
+ProductName:		macOS
+ProductVersion:		26.5.2
+BuildVersion:		25F84

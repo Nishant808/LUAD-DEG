@@ -1,0 +1,19 @@
+# Raw sequencing count data
+data/counts/
+legacy/step2_2025-02/DATA/COUNTS/
+
+# Oversized derived DEG result files (100M+ each, over GitHub's per-file limit)
+data/LUAD_MERGED_ALL_DEG_RESULT.csv
+publication_v1/data/LUAD_MERGED_ALL_DEG_RESULT_padj.csv
+legacy/step2_2025-02/DATA/LUAD_MERGED_ALL_DEG_RESULT.csv
+
+# Per-sample DEG results (2.8GB across 539 files, excluded by choice)
+publication_v1/data/DEG_RES_ALL/
+
+# Environment / IDE / OS noise
+BIOENV/
+.idea/
+.DS_Store
+.Rhistory
+__pycache__/
+*.pyc

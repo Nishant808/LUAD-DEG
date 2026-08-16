@@ -1,0 +1,13 @@
+Random Forest test-set performance
+===================================
+Accuracy: 0.975000
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.94      0.91        16
+           1       0.99      0.98      0.99       104
+
+    accuracy                           0.97       120
+   macro avg       0.94      0.96      0.95       120
+weighted avg       0.98      0.97      0.98       120

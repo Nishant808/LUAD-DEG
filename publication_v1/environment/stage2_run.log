@@ -1,0 +1,10 @@
+/Users/nishantthalwal/Documents/Data ALL/TCGA_LUAD/publication_v1/scripts/02_data_process_padj.py:53: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  DATA_MAT_1["Label"] = DATA_MAT["Label"]
+Total comparisons (tumor samples): 539
+Total Genes Selected (padj <= 0.05 in >= 90% of comparisons): 110
+Feature matrix shape: (598, 111)
+Saved to: /Users/nishantthalwal/Documents/Data ALL/TCGA_LUAD/publication_v1/data/FEATURE_DATA_MATRIX.csv

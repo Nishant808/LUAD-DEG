@@ -1,0 +1,41 @@
+Welcome to enrichR
+Checking connections ... 
+Enrichr ... Connection is Live!
+FlyEnrichr ... Connection is Live!
+WormEnrichr ... Connection is Live!
+YeastEnrichr ... Connection is Live!
+FishEnrichr ... Connection is Live!
+OxEnrichr ... Connection is Live!
+SHAP_TUMOR genes: 20 
+SHAP_NORMAL genes: 20 
+Ensembl site unresponsive, trying asia mirror
+SHAP_TUMOR - Ensembl IDs: 20  mapped HGNC symbols: 20 
+Connection changed to https://maayanlab.cloud/Enrichr/
+Connection is Live!
+Uploading data to Enrichr... Done.
+  Querying KEGG_2021_Human... Done.
+  Querying GO_Biological_Process_2023... Done.
+  Querying GO_Molecular_Function_2023... Done.
+  Querying GO_Cellular_Component_2023... Done.
+Parsing results... Done.
+Warning messages:
+1: Using size for a discrete variable is not advised. 
+2: Using size for a discrete variable is not advised. 
+3: Using size for a discrete variable is not advised. 
+4: Using size for a discrete variable is not advised. 
+Ensembl site unresponsive, trying asia mirror
+SHAP_NORMAL - Ensembl IDs: 20  mapped HGNC symbols: 20 
+Connection changed to https://maayanlab.cloud/Enrichr/
+Connection is Live!
+Uploading data to Enrichr... Done.
+  Querying KEGG_2021_Human... Done.
+  Querying GO_Biological_Process_2023... Done.
+  Querying GO_Molecular_Function_2023... Done.
+  Querying GO_Cellular_Component_2023... Done.
+Parsing results... Done.
+Warning messages:
+1: Using size for a discrete variable is not advised. 
+2: Using size for a discrete variable is not advised. 
+3: Using size for a discrete variable is not advised. 
+4: Using size for a discrete variable is not advised. 
+GO/pathway enrichment complete.

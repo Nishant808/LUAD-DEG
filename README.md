@@ -49,17 +49,3 @@ pip install -r requirements.txt
 
 R dependencies (for stage 1) must be installed separately via
 `install.packages()` / Bioconductor (`DESeq2`).
-
-## `legacy/step2_2025-02/`
-
-A complete earlier snapshot of this project (Feb 2025), archived as-is.
-Its `Data_Process.ipynb` (0.7 significance threshold, vs. 0.9 in the current
-pipeline) and `BIOMARKER_SCRIPT_UPDATED.py` (legacy `shap.DeepExplainer`, no
-RandomForest stage) are superseded by the scripts in `scripts/`.
-
-It also contains `SCRIPTS/BIOMARKER_PATH_GO_SCRIPT.R`, a GO/KEGG pathway
-enrichment stage (biomaRt + enrichR) that has **no counterpart in the current
-pipeline** — status undecided. If this analysis is needed for the preprint,
-it should be reviewed, have its paths updated to point at
-`results/biomarkers/ML_BIOMARKERS_RES.xlsx`, and be promoted to
-`scripts/04_pathway_enrichment.R`.
